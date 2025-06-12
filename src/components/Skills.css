@@ -47,7 +47,7 @@
   position: relative;
   font-weight: 700;
   color: var(--primary-beige);
-  text-shadow: 0 0 5px #c2a474, 0.5);
+  text-shadow: 0 0 5px #c2a474;
 }
 
 .skill-bar {
@@ -152,7 +152,7 @@
   height: 3rem;
   font-size: 1.5rem;
   color: var(--primary-beige);
-  background-color: #c2a474, 0.1);
+  background-color: #c2a474;
   border-radius: 50%;
   border: 2px solid var(--primary-beige);
   transition: all 0.3s ease;

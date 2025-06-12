@@ -5,6 +5,11 @@ import AnimatedSection from './AnimatedSection';
 import gsap from 'gsap';
 import bankopolyImage from '../assets/bankopoly.avif';
 import betbyheartImage from '../assets/betbyheart.jpg';
+import royalChessImage from '../assets/royalchess.jpg';
+import nachosNFTImage from '../assets/nachos.jpg';
+import chatroomImage from '../assets/chatroom.png';
+import lunaiImage from '../assets/lunai.png';
+
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -20,52 +25,52 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Bet By Heart',
-      description: 'An interactive online betting platform featuring games like Blackjack, Teen Patti, Chess, Ludo, and Derby. Integrated referral and rewards systems to boost user engagement.',
+      title: 'Luna AI',
+      description: 'An AI platform where user can create their virtual AI girlfriends / AI influencers, chat with them, create videos with them or advertise their products.',
       category: ['websites'],
-      image: '/images/project-placeholder-1.jpg',
-      url: 'https://TusharKaw23.artstation.com/projects/K3aOqG'
-    },
-    {
-      id: 2,
-      title: 'Royal Chess',
-      description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
-      category: ['websites','games','blockchain'],
-      image: '/images/project-placeholder-2.jpg',
-      url: 'https://TusharKaw23.artstation.com/projects/P6n9Qn'
-    },
-    {
-        id: 3,
-        title: 'Private Chat Room',
-        description: 'A personal Discord-like chatroom using the MERN stack, achieving 100% encrypted communication on TOR network with Socket.IO for real-time messaging.',
-        category: ['websites'],
-        image: '/images/project-placeholder-5.jpg',
-        url: 'https://TusharKaw23.artstation.com/projects/RKll3X'
-    },
-    {
-      id: 4,
-      title: 'Find Meet Chat',
-      description: 'A MERN-based dating platform with real-time chat, matchmaking logic, and robust user profiles. Managed sprints and API documentation for faster development.',
-      category: ['websites'],
-      image: '/images/project-placeholder-4.jpg',
+      image: lunaiImage,
       url: 'https://TusharKaw23.artstation.com/projects/EzVvN4'
     },
     {
-        id: 5,
-        title: 'Bankopoly.io',
-        description: 'A blockchain-based NFT marketplace on the Cardano network, featuring secure wallet integration, NFT minting capabilities, and auction functionality.',
-        category: ['games','blockchain'],
-        image: 'bankopolyImage',
-        url: 'https://TusharKaw23.artstation.com/projects/2BZZ8g'
+      id: 2,
+      title: 'Bankopoly.io',
+      description: 'A blockchain-based NFT WebGL Game on the Cardano network, featuring secure wallet connection, NFT skins, and multiplayer/vsBot gameplays.',
+      category: ['games','blockchain'],
+      image: bankopolyImage,
+      url: 'https://TusharKaw23.artstation.com/projects/2BZZ8g'
+  },
+  {
+    id: 3,
+    title: 'NachosNFT',
+    description: 'A unique web-based platform built on the Cardano blockchain, centered around upgradable NFTs and competitive gameplay mechanics.',
+    category: ['websites','blockchain'],
+    image: nachosNFTImage,
+    url: 'https://TusharKaw23.artstation.com/projects/6LnY0w'
+},
+{
+  id: 4,
+  title: 'Bet By Heart',
+  description: 'An interactive online betting platform featuring games like Blackjack, Teen Patti, Chess, Ludo, and Derby. Integrated referral and rewards systems to boost user engagement.',
+  category: ['websites'],
+  image: betbyheartImage,
+  url: 'https://TusharKaw23.artstation.com/projects/K3aOqG'
+},
+    {
+      id: 5,
+      title: 'Royal Chess',
+      description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
+      category: ['websites','games','blockchain'],
+      image: royalChessImage,
+      url: 'https://TusharKaw23.artstation.com/projects/P6n9Qn'
     },
     {
-        id: 6,
-        title: 'NachosNFT',
-        description: 'A unique web-based platform built on the Cardano blockchain, centered around upgradable NFTs and competitive gameplay mechanics.',
-        category: ['websites','blockchain'],
-        image: '/images/project-placeholder-6.jpg',
-        url: 'https://TusharKaw23.artstation.com/projects/6LnY0w'
-    }
+      id: 6,
+      title: 'Personal Chatroom',
+      description: 'A private discord like chatroom made by Me, I deploy this time to time on TOR browser with variable .onion links, to chat privately.',
+      category: ['websites'],
+      image: chatroomImage,
+      url: 'https://TusharKaw23.artstation.com/projects/RKll3X'
+  }
   ];
 
   const filteredProjects = activeFilter === 'all' 
@@ -159,37 +164,28 @@ const Projects = () => {
               onMouseLeave={(e) => handleTiltExit(e.currentTarget)}
             >
               <div className="project-img">
-                <div className="project-img-placeholder">
-                  {project.category.includes('vr') && (
-                    <i className="fas fa-vr-cardboard project-icon"></i>
-                  )}
-                  {project.category.includes('pc') && !project.category.includes('vr') && (
-                    <i className="fas fa-laptop project-icon"></i>
-                  )}
-                  {project.category.includes('mobile') && !project.category.includes('pc') && (
-                    <i className="fas fa-mobile-alt project-icon"></i>
-                  )}
-                </div>
-                <div className="project-overlay">
-                  <div className="project-tags">
-                    {project.category.map(cat => (
-                      <span key={cat} className="project-tag">
-                        {projectFilters.find(f => f.id === cat)?.name}
-                      </span>
-                    ))}
-                  </div>
-                  <motion.a 
-                    href={project.url || "#"} 
-                    className="project-link"
-                    whileHover={{ scale: 1.2, rotate: 90 }}
-                    whileTap={{ scale: 0.9 }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fas fa-external-link-alt"></i>
-                  </motion.a>
-                </div>
-              </div>
+  <img src={project.image} alt={project.title} />
+  <div className="project-overlay">
+    <div className="project-tags">
+      {project.category.map(cat => (
+        <span key={cat} className="project-tag">
+          {projectFilters.find(f => f.id === cat)?.name}
+        </span>
+      ))}
+    </div>
+    <motion.a 
+      href={project.url || "#"} 
+      className="project-link"
+      whileHover={{ scale: 1.2, rotate: 90 }}
+      whileTap={{ scale: 0.9 }}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fas fa-external-link-alt"></i>
+    </motion.a>
+  </div>
+</div>
+
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
