@@ -1,8 +1,8 @@
 .blog-post-container {
-  padding: var(--section-padding);
+  padding: 1px;
   background: var(--background-dark);
   min-height: 100vh;
-  padding-top: 120px;
+  padding-top: 1px;
 }
 
 .blog-post {

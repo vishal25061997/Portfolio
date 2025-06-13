@@ -59,7 +59,7 @@
 }
 
 .timeline-content {
-  padding: 30px;
+  padding: 20px;
   position: relative;
 }
 
@@ -111,8 +111,8 @@
   
   .timeline-item {
     width: 100%;
-    padding-left: 80px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 1px;
     text-align: left;
   }
   

@@ -19,7 +19,7 @@ const Footer = () => {
               <li><a href="#projects">Projects</a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#skills">Skills</a></li>
-              <li><a href="/blogs">Blog</a></li>
+              <li><a href="/blogs"><text style={{color:'var(--primary-beige)'}}>Blogs</text></a></li>
             </ul>
           </div>
           

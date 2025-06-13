@@ -1,5 +1,5 @@
 .blog-section {
-  padding: var(--section-padding);
+  padding: 10px;
   background-color: var(--background-dark);
   text-align: center;
 }
@@ -7,7 +7,7 @@
 .blog-section .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 1px;
 }
 
 .blog-section .section-header {
@@ -32,7 +32,7 @@
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 30px;
+  gap: 20px;
 }
 
 .blog-card {
@@ -173,7 +173,7 @@
   }
   
   .blog-section {
-    padding: 70px 0;
+    padding: 10px 0;
   }
   
   .blog-section .section-header h2 {

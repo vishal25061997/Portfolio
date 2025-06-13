@@ -36,7 +36,6 @@ const Blog = () => {
         <AnimatedSection>
           <div className="section-header">
             <h2>Blogs</h2>
-            <p>Latest Articles & Blogs</p>
           </div>
         </AnimatedSection>
 

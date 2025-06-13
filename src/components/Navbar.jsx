@@ -38,7 +38,7 @@ const Navbar = () => {
             ) : (
               <li><Link to="/" onClick={closeMenu}>Home</Link></li>
             )}
-            <li><Link to="/blogs" onClick={closeMenu}>Blogs</Link></li>
+            <li><Link to="/blogs" onClick={closeMenu}><text style={{color:'var(--primary-beige)'}}>Blogs</text></Link></li>
           </ul>
         </div>
         
