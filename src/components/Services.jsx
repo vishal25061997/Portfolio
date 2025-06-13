@@ -42,9 +42,6 @@ const Services = () => {
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <div className="service-expand">
-                <i className="fas fa-arrow-right"></i>
-              </div>
             </div>
           ))}
         </div>

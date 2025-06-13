@@ -29,7 +29,7 @@ const Projects = () => {
       description: 'An AI platform where user can create their virtual AI girlfriends / AI influencers, chat with them, create videos with them or advertise their products.',
       category: ['websites'],
       image: lunaiImage,
-      url: 'https://TusharKaw23.artstation.com/projects/EzVvN4'
+      url: 'https://github.com/TusharKaw/LUNA-AI'
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const Projects = () => {
       description: 'A blockchain-based NFT WebGL Game on the Cardano network, featuring secure wallet connection, NFT skins, and multiplayer/vsBot gameplays.',
       category: ['games','blockchain'],
       image: bankopolyImage,
-      url: 'https://TusharKaw23.artstation.com/projects/2BZZ8g'
+      url: 'https://bankopoly.io/'
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const Projects = () => {
     description: 'A unique web-based platform built on the Cardano blockchain, centered around upgradable NFTs and competitive gameplay mechanics.',
     category: ['websites','blockchain'],
     image: nachosNFTImage,
-    url: 'https://TusharKaw23.artstation.com/projects/6LnY0w'
+    url: 'https://www.nachoxyz.com/'
 },
 {
   id: 4,
@@ -53,7 +53,7 @@ const Projects = () => {
   description: 'An interactive online betting platform featuring games like Blackjack, Teen Patti, Chess, Ludo, and Derby. Integrated referral and rewards systems to boost user engagement.',
   category: ['websites'],
   image: betbyheartImage,
-  url: 'https://TusharKaw23.artstation.com/projects/K3aOqG'
+  url: 'http://beta.betbyheart.in'
 },
     {
       id: 5,
@@ -61,7 +61,7 @@ const Projects = () => {
       description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
       category: ['websites','games','blockchain'],
       image: royalChessImage,
-      url: 'https://TusharKaw23.artstation.com/projects/P6n9Qn'
+      url: 'https://beta.royalchessclub.io/'
     },
     {
       id: 6,
@@ -69,7 +69,7 @@ const Projects = () => {
       description: 'A private discord like chatroom made by Me, I deploy this time to time on TOR browser with variable .onion links, to chat privately.',
       category: ['websites'],
       image: chatroomImage,
-      url: 'https://TusharKaw23.artstation.com/projects/RKll3X'
+      url: 'https://github.com/TusharKaw/Personal-Chatroom'
   }
   ];
 
