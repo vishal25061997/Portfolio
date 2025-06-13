@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 70px;
   height: 3px;
   background: var(--primary-beige);
-  box-shadow: 0 0 10px #c2a474;
+  box-shadow: 0 0 100px #c2a474;
 }
 
 .btn {

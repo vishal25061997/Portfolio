@@ -13,7 +13,9 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Blog from './components/Blog'
 import BlogPost from './components/BlogPost'
+import AllProjects from './components/AllProjects'
 import CustomCursor from './components/CustomCursor'
+import ScrollToTop from './components/ScrollToTop'
 import { motion, AnimatePresence } from 'framer-motion'
 
 function App() {
@@ -74,6 +76,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <CustomCursor />
       <Navbar />
       <AnimatePresence mode="wait">
@@ -89,6 +92,20 @@ function App() {
                 variants={pageVariants}
               >
                 <HomePage />
+              </motion.div>
+            } 
+          />
+          <Route 
+            path="/allprojects" 
+            element={
+              <motion.div
+                className="app"
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={pageVariants}
+              >
+                <AllProjects />
               </motion.div>
             } 
           />

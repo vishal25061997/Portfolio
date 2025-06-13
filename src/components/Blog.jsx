@@ -2,13 +2,10 @@ import React from 'react';
 import './Blog.css';
 import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
-import blog1 from  '../assets/blogs/blog1.png'
-import blog2 from  '../assets/blogs/blog2.png'
+import blog1 from '../assets/blogs/blog1.png';
+import blog2 from '../assets/blogs/blog2.png';
 
 const Blog = () => {
-
-  const readMoreText = "Read More";
-  
   const blogPosts = [
     {
       id: 1,
@@ -51,7 +48,7 @@ const Blog = () => {
               >
                 <div className="blog-image">
                   <img src={post.imageUrl} alt={post.title} />
-                  <div className="blog-overlay">
+                  <a href={post.url} className="blog-overlay">
                     <div className="blog-tags">
                       {post.tags.map(tag => (
                         <span key={tag} className="blog-tag">
@@ -59,15 +56,13 @@ const Blog = () => {
                         </span>
                       ))}
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div className="blog-content">
                   <span className="blog-date">{post.date}</span>
                   <h3>{post.title}</h3>
                   <p>{post.excerpt}</p>
-                  <a href={post.url} className="read-more">
-                    {readMoreText}
-                  </a>
+                  <a href={post.url} className="read-more">Read More</a>
                 </div>
               </motion.div>
             </AnimatedSection>

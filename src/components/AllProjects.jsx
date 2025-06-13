@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './Projects.css';
+import './AllProjects.css';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import AnimatedSection from './AnimatedSection';
 import gsap from 'gsap';
 import bankopolyImage from '../assets/bankopoly.avif';
@@ -133,7 +132,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <AnimatedSection>
-          <h2 className="section-title">My Recent <span>Works</span></h2>
+          <h2 className="section-title">My All Time <span>Works</span></h2>
         </AnimatedSection>
         
         <AnimatedSection delay={0.3}>
@@ -194,21 +193,6 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
-        
-        <AnimatedSection delay={0.1}>
-          <div className="see-more-container">
-            <Link to="/allprojects" className="see-more-btn">
-              <motion.button
-                className="btn btn-primary"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <text style={{color:'#000'}}>See More Projects</text>
-                <i style={{color:'#000'}} className="fas fa-arrow-right"></i>
-              </motion.button>
-            </Link>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );

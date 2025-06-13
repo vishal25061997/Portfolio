@@ -16,7 +16,7 @@ const Footer = () => {
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#projects">Projects</a></li>
+              <li><a href="/allprojects"><text style={{color:'var(--primary-beige)'}}>Projects</text></a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="/blogs"><text style={{color:'var(--primary-beige)'}}>Blogs</text></a></li>
