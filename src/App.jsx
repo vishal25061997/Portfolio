@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -10,8 +11,10 @@ import Education from './components/Education'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Blog from './components/Blog'
+import BlogPost from './components/BlogPost'
 import CustomCursor from './components/CustomCursor'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -56,16 +59,8 @@ function App() {
     );
   }
 
-  return (
-    <motion.div
-      className="app"
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      variants={pageVariants}
-    >
-      <CustomCursor />
-      <Navbar />
+  const HomePage = () => (
+    <>
       <Hero />
       <Stats />
       <Services />
@@ -74,8 +69,61 @@ function App() {
       <Education />
       <Skills />
       <Contact />
+    </>
+  );
+
+  return (
+    <Router>
+      <CustomCursor />
+      <Navbar />
+      <AnimatePresence mode="wait">
+        <Routes>
+          <Route 
+            path="/" 
+            element={
+              <motion.div
+                className="app"
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={pageVariants}
+              >
+                <HomePage />
+              </motion.div>
+            } 
+          />
+          <Route 
+            path="/blogs" 
+            element={
+              <motion.div
+                className="app"
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={pageVariants}
+              >
+                <Blog />
+              </motion.div>
+            } 
+          />
+          <Route 
+            path="/blog/:slug" 
+            element={
+              <motion.div
+                className="app"
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={pageVariants}
+              >
+                <BlogPost />
+              </motion.div>
+            } 
+          />
+        </Routes>
+      </AnimatePresence>
       <Footer />
-    </motion.div>
+    </Router>
   )
 }
 
