@@ -69,12 +69,12 @@ const Hero = () => {
               <text style={{color:"#000000"}}>Download Resume</text>
             </motion.a>
             <motion.a 
-              href="#projects" 
+              href="/blogs" 
               className="btn btn-outline"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              View Portfolio
+              Read My Blogs
             </motion.a>
           </div>
 
