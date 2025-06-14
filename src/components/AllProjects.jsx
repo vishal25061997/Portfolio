@@ -17,6 +17,7 @@ import findmeetchat from '../assets/findmeetchat.jpg';
 import connect from '../assets/connect.webp';
 import aiims from '../assets/aiims.jpeg';
 import metaschool from '../assets/metaschool.png';
+import videosurf from '../assets/videosurf.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -71,8 +72,16 @@ const Projects = () => {
   image: betbyheartImage,
   url: 'http://beta.betbyheart.in'
 },
+{
+  id: 6,
+  title: 'Video Surfer',
+  description: 'A video surfing website, where most popular videos are dropped via Admin panel, using a Bulk videos importer mechanics, allowing the website to attain 100s of videos at once.',
+  category: ['websites'],
+  image: videosurf,
+  url: 'https://github.com/Mohityadav94161/video_surfing'
+},
     {
-      id: 6,
+      id: 7,
       title: 'Royal Chess',
       description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
       category: ['websites','games','blockchain'],
@@ -80,7 +89,7 @@ const Projects = () => {
       url: 'https://beta.royalchessclub.io/'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Barrel Blast',
       description: 'Barrel Blast, a fast-paced, web-based arcade game built using Phaser.js, designed to offer quick and addictive gameplay.',
       category: ['websites','games'],
@@ -88,7 +97,7 @@ const Projects = () => {
       url: 'https://barrel-test.vercel.app/'
     },
   {
-    id: 8,
+    id: 9,
     title: 'Unbounded Racing',
     description: 'A voxel art styled racing game, with PvP and vsBots mechanics, game login based on Cardano blockchain wallets.',
     category: ['games','blockchain'],
@@ -96,7 +105,7 @@ const Projects = () => {
     url: 'https://voxel-game.abhiwandemos.com/'
 },
 {
-  id: 9,
+  id: 10,
   title: 'Shiv Shiksha',
   description: 'A website for a charitable organization focused on supporting underprivileged children through education, healthcare, and community programs.',
   category: ['websites'],
@@ -104,7 +113,7 @@ const Projects = () => {
   url: 'https://www.artstation.com/artwork/AZ58EX'
 },
 {
-  id: 10,
+  id: 11,
   title: 'Find Meet Chat',
   description: 'A Smash or Pass based cool web-app, where users either Smash or Pass you based on your Images / Portfolio, smashed ones can chat as well.',
   category: ['websites','apps'],
@@ -112,7 +121,7 @@ const Projects = () => {
   url: 'https://github.com/TusharKaw/Find-Meet-Chat_v2'
 },
 {
-  id: 11,
+  id: 12,
   title: 'Connect',
   description: 'A web-app for Artists, Singers, Musicians, Actors, Models, etc, where they can create their profiles and connect with Industries to get opportunities.',
   category: ['websites','apps'],
@@ -120,7 +129,7 @@ const Projects = () => {
   url: 'https://github.com/TusharKaw/Connect'
 },
 {
-  id: 12,
+  id: 13,
   title: 'ADHD Diagnostic Game - AIIMS',
   description: 'A 2D game created for AIIMS Delhi featuring 10 activities designed by doctors for children with ADHD. The game tracks response time, patterns, and behavior.',
   category: ['games','apps'],
@@ -128,7 +137,7 @@ const Projects = () => {
   url: 'https://googleplay.com/store/apps'
 },
 {
-  id: 13,
+  id: 14,
   title: 'Meta School VR',
   description: 'A VR based Chemistry lab where users can perform Chemistry activities inside a virtual 3D lab, and see their results before performing in real world.',
   category: ['apps'],
@@ -136,7 +145,7 @@ const Projects = () => {
   url: 'https://googleplay.com/store/apps'
 },
 {
-  id: 14,
+  id: 15,
   title: 'Personal Chatroom',
   description: 'A private discord like chatroom made by Me, I deploy this time to time on TOR browser with variable .onion links, to chat privately.',
   category: ['websites'],
