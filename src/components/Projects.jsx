@@ -6,10 +6,10 @@ import AnimatedSection from './AnimatedSection';
 import gsap from 'gsap';
 import bankopolyImage from '../assets/bankopoly.avif';
 import betbyheartImage from '../assets/betbyheart.jpg';
-import royalChessImage from '../assets/royalchess.jpg';
 import nachosNFTImage from '../assets/nachos.jpg';
 import chatroomImage from '../assets/chatroom.png';
 import lunaiImage from '../assets/lunai.png';
+import ActiveShooter from '../assets/Activeshooter.jpg';
 
 
 const Projects = () => {
@@ -56,14 +56,14 @@ const Projects = () => {
   image: betbyheartImage,
   url: 'http://beta.betbyheart.in'
 },
-    {
-      id: 5,
-      title: 'Royal Chess',
-      description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
-      category: ['websites','games','blockchain'],
-      image: royalChessImage,
-      url: 'https://beta.royalchessclub.io/'
-    },
+{
+  id: 5,
+  title: 'Active Shooter VR',
+  description: 'A VR training simulation developed for Abu Dhabi Police, integrating KAT VR, Forcetube Provolver, and MetaHumans for an immersive training experience.',
+  category: ['games'],
+  image: ActiveShooter,
+  url: 'https://www.artstation.com/artwork/lGXm4V'
+},
     {
       id: 6,
       title: 'Personal Chatroom',
