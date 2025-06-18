@@ -28,11 +28,11 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #291F10;
+  background: #103e0b;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   font-size: 1.2rem;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .social-links a:hover {
-  background: var(--primary-beige);
+  background: var(--primary-green);
   transform: translateY(-3px);
 }
 
@@ -96,8 +96,8 @@
 .form-group textarea {
   width: 100%;
   padding: 15px;
-  background: #291F10;
-  border: 1px solid #c2a474;
+  background: #103e0b;
+  border: 1px solid var(--primary-green);
   border-radius: 5px;
   color: var(--text-black);
   font-size: 1rem;
@@ -107,7 +107,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--primary-beige);
+  border-color: var(--primary-green);
   background: #3e2f18;
 }
 

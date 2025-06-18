@@ -39,7 +39,7 @@
   top: 0;
   height: 100%;
   width: 51%;
-  background: var(--primary-beige);
+  background: var(--primary-green);
 }
 
 .chevron:before {
@@ -57,7 +57,7 @@
   display: block;
   margin-top: 75px;
   font-size: 12px;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   text-transform: uppercase;
   white-space: nowrap;
   opacity: 0.25;

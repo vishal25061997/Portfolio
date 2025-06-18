@@ -52,7 +52,7 @@ function App() {
           <div className="loader-icon">
             <i className="fas fa-briefcase"></i>
           </div>
-          <h2>Tushar<span>Kaw</span></h2>
+          <h2>Vishal<span>Yadav</span></h2>
           <div className="loader-bar">
             <div className="loader-progress"></div>
           </div>

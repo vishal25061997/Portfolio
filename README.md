@@ -1,6 +1,6 @@
 # React + Vite Website Project Setup
 
-Active Link - https://tusharkaw.netlify.app/
+Active Link - https://VishalYadav.netlify.app/
 
 Download all dependencies to test on loocalhost : npm i
 

@@ -29,7 +29,7 @@
   position: absolute;
   width: 50px;
   height: 3px;
-  background: var(--primary-beige);
+  background: var(--primary-green);
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
@@ -61,7 +61,7 @@
 .education-year {
   white-space: nowrap;
   display: inline-block;
-  background: var(--primary-beige);
+  background: var(--primary-green);
   color: var(--text-black);
   padding: 5px 12px;
   border-radius: 5px;
@@ -79,7 +79,7 @@
 
 .education-institution {
   font-size: 1.1rem;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   margin-bottom: 5px;
 }
 

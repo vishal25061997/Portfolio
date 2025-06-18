@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      position: 'Jr. Project Manager',
+      position: 'Jr. Unity Developer',
       company: 'Abhiwan Technology Pvt Ltd',
       location: 'Noida, India',
       period: <text style={{color:'#000'}}>March 2024 - Present</text>,
@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       id: 2,
-      position: 'Project Manager Intern',
+      position: 'Unity Developer Intern',
       company: 'Bharti Airtel',
       location: 'Gurugram, Haryana',
       period: <text style={{color:'#000'}}>February 2023 - June 2023</text>,

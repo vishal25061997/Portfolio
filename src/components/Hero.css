@@ -39,7 +39,7 @@
 }
 
 .hero-content h1 span {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 .hero-content p {
@@ -57,11 +57,11 @@
 
 .btn-outline {
   background: transparent;
-  border: 2px solid var(--primary-beige);
+  border: 2px solid var(--primary-green);
 }
 
 .btn-outline:hover {
-  background: var(--primary-beige);
+  background: var(--primary-green);
 }
 
 .hero-social {
@@ -76,13 +76,13 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #3b2d16;
+  background-color: #0f360c;
   color: var(--text-black);
   transition: all 0.3s ease;
 }
 
 .hero-social a:hover {
-  background-color: var(--primary-beige);
+  background-color: var(--primary-green);
   transform: translateY(-3px);
 }
 
@@ -103,7 +103,7 @@
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
-  border: 3px solid #c2a474;
+  border: 3px solid var(--primary-green);
   /* background: linear-gradient(145deg, rgba(14, 3, 34, 0.6), rgba(7, 1, 23, 0.9)); */
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
@@ -135,7 +135,7 @@
         width: 100%;
         height: 100%;
         /* background-image: url('https://picsum.photos/200/300'); */
-        background: linear-gradient(45deg, #c2a474, rgba(210, 207, 212, 0.2));
+        background: linear-gradient(45deg, var(--primary-green), rgba(210, 207, 212, 0.2));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,7 +143,7 @@
 
     .hero-icon {
         font-size: 6rem;
-        color: var(--primary-beige);
+        color: var(--primary-green);
         /* opacity: 0.7; */
         animation: float 3s ease-in-out infinite;
     }
@@ -167,11 +167,11 @@
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background-image: url('./../assets/Tushar.jpg');
+  background-image: url('./../assets/vishal.jpeg');
   background-size: cover; /* ensure image fills the area */
   background-position: center;
 
-  /* background: linear-gradient(45deg, var(--primary-beige), transparent, var(--primary-beige)); */
+  /* background: linear-gradient(45deg, var(--primary-green), transparent, var(--primary-green)); */
   z-index: -1;
   /* animation: borderGlow 8s linear infinite; */
   border-radius: 30px;

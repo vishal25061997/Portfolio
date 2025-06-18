@@ -30,21 +30,21 @@
   left: 0;
   width: 4px;
   height: 100%;
-  background: var(--primary-beige);
+  background: var(--light-green);
   z-index: -1;
   transition: all 0.3s ease;
 }
 
 .service-card:hover::before {
   width: 100%;
-  background: #291F10;
+  background: #0d3109;
 }
 
 .service-icon {
   width: 60px;
   height: 60px;
   border-radius: 10px;
-  background: #463922;
+  background: #103e0b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,7 @@
 
 .service-icon i {
   font-size: 1.5rem;
-  color: var(--primary-beige);
+  color: var(--light-green);
 }
 
 .service-card h3 {
@@ -79,7 +79,7 @@
 
 .service-expand i {
   font-size: 1rem;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   transition: all 0.3s ease;
 }
 

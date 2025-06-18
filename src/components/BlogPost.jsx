@@ -16,7 +16,7 @@ const BlogPost = () => {
     'manage-remote-project-teams-effectively': {
       title: 'How to Manage Remote Project Teams Effectively',
       date: 'June 15, 2024',
-      author: 'Tushar Kaw',
+      author: 'Vishal Yadav',
       readTime: '10 min read',
       tags: ['Team Management', 'Co-ordination', 'Productivity'],
       heroImage: blog1,
@@ -81,7 +81,7 @@ const BlogPost = () => {
     'advanced-css-techniques': {
       title: 'Best Project Management Tools',
       date: 'May 28, 2025',
-      author: 'Tushar Kaw',
+      author: 'Vishal Yadav',
       readTime: '5 min read',
       tags: ['Jira', 'Productivity'],
       heroImage: blog2,
@@ -127,7 +127,7 @@ const BlogPost = () => {
     'project-risk-management-guide': {
   title: 'The Ultimate Guide to Project Risk Management',
   date: 'June 20, 2025',
-  author: 'Tushar Kaw',
+  author: 'Vishal Yadav',
   readTime: '10 min read',
   tags: ['Risk Management', 'Project Planning', 'Execution'],
   heroImage: blog3,
@@ -189,14 +189,14 @@ const BlogPost = () => {
     <p>A fintech startup launched a trading app without full compliance testing. Midway through rollout, regulators flagged serious issues. The team hadn't planned a legal risk mitigation strategy. This resulted in a six-month delay and $400K in legal expenses. A simple early-stage risk identification would have prevented this.</p>
 
     <h3>Conclusion</h3>
-    <p>Risk management isn't just about avoiding disaster—it's about being proactive and confident in the face of uncertainty. The most successful project managers anticipate risks, build contingency plans, and lead their teams with clarity and purpose.</p>
+    <p>Risk management isn't just about avoiding disaster—it's about being proactive and confident in the face of uncertainty. The most successful Unity Developers anticipate risks, build contingency plans, and lead their teams with clarity and purpose.</p>
     <p>Start with small steps: create a risk register today, involve your team, and build the muscle of foresight that every great project needs.</p>
   `
 },
 'high-performance-project-teams': {
   title: 'How to Create a High-Performance Project Team',
   date: 'June 22, 2025',
-  author: 'Tushar Kaw',
+  author: 'Vishal Yadav',
   readTime: '8 min read',
   tags: ['Team Building', 'Leadership', 'Collaboration'],
   heroImage: blog4,
@@ -256,7 +256,7 @@ const BlogPost = () => {
 'agile-vs-waterfall': {
   title: 'Agile vs. Waterfall: Which Project Management Approach is Right for You?',
   date: 'June 25, 2025',
-  author: 'Tushar Kaw',
+  author: 'Vishal Yadav',
   readTime: '9 min read',
   tags: ['Agile', 'Waterfall', 'Methodologies'],
   heroImage: blog5,
@@ -311,7 +311,7 @@ const BlogPost = () => {
     </ul>
 
     <h3>Conclusion</h3>
-    <p>There's no one-size-fits-all solution. Agile and Waterfall serve different needs, and your choice should depend on your team's workflow, your client's preferences, and your project's complexity. The most successful project managers are the ones who tailor their approach to the unique demands of each project.</p>
+    <p>There's no one-size-fits-all solution. Agile and Waterfall serve different needs, and your choice should depend on your team's workflow, your client's preferences, and your project's complexity. The most successful Unity Developers are the ones who tailor their approach to the unique demands of each project.</p>
     
     <p>Still unsure? Try piloting both methods on small projects and learn what suits your team best.</p>
   `

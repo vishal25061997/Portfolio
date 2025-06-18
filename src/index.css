@@ -1,8 +1,8 @@
 :root {
   --background-dark: #0e0322;
   --background-darker: #070117;
-  --primary-beige: #8a2be2;
-  --light-beige: #9d4edd;
+  --primary-green: #1e7616;
+  --light-green: #279b1c;
   --text-black: #ffffff;
   --text-gray: #e6e6e6;
   --text-light-gray: #cccccc;
@@ -50,7 +50,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--primary-beige);
+  background: var(--primary-green);
   color: var(--text-black);
 }
 

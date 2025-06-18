@@ -5,27 +5,27 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: 'Project Lifecycle Management',
-      description: 'End-to-end project lifecycle management using Agile/Scrum methodologies, ensuring on-time and on-budget project delivery with clear documentation and tracking.',
-      icon: 'tasks'
+      title: 'Game Development Lifecycle',
+      description: 'Full-cycle Unity game development from prototyping to deployment, optimizing performance across platforms (PC, mobile, console) using C# and Unity Engine.',
+      icon: 'code'
     },
     {
       id: 2,
-      title: 'Team Leadership',
-      description: 'Leading cross-functional teams of developers, designers, and QA specialists to execute complex projects with clear communication and goal alignment.',
-      icon: 'users'
+      title: 'Gameplay Systems',
+      description: 'Implementing core gameplay mechanics, AI behaviors, and physics systems with clean, modular C# code and Unity’s scripting API.',
+      icon: 'gamepad'
     },
     {
       id: 3,
-      title: 'Technical Planning',
-      description: 'Creating detailed API documentation, database schema designs, and technical specifications that align business requirements with technical implementation.',
-      icon: 'clipboard-list'
+      title: 'Code Optimization',
+      description: 'Profiling and optimizing games for FPS, memory usage, and asset pipelines (textures, models, animations) for smooth performance.',
+      icon: 'microchip'
     },
     {
       id: 4,
-      title: 'Stakeholder Management',
-      description: 'Effective communication with clients and stakeholders to gather requirements, provide updates, and ensure project success with high satisfaction rates.',
-      icon: 'comments'
+      title: 'Cross-Team Collaboration',
+      description: 'Working with artists, designers, and QA to implement assets, UI, and gameplay features while maintaining technical constraints.',
+      icon: 'users-cog'
     }
   ];
 

@@ -26,7 +26,7 @@
 }
 
 .back-to-blogs:hover {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 .blog-post-meta {
@@ -41,7 +41,7 @@
 }
 
 .blog-post-tag {
-  background: var(--primary-beige);
+  background: var(--primary-green);
   color: var(--text-black);
   font-size: 0.8rem;
   padding: 5px 12px;
@@ -141,7 +141,7 @@
 
 .blog-post-content code {
   background: var(--background-darker);
-  color: var(--primary-beige);
+  color: var(--primary-green);
   padding: 2px 6px;
   border-radius: 4px;
   font-family: 'Fira Code', 'Monaco', monospace;
@@ -155,7 +155,7 @@
 }
 
 .blog-post-content blockquote {
-  border-left: 4px solid var(--primary-beige);
+  border-left: 4px solid var(--primary-green);
   padding-left: 20px;
   margin: 25px 0;
   font-style: italic;
@@ -227,7 +227,7 @@
 }
 
 .back-to-blogs-footer:hover {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 .blog-post-404 {

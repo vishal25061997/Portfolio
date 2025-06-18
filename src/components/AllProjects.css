@@ -13,8 +13,8 @@
   }
   
   .filter-btn {
-    background: #291F10;
-    border: 1px solid #c2a474;
+    background: #103e0b;
+    border: 1px solid var(--primary-green);
     color: var(--text-black);
     border-radius: 30px;
     padding: 10px 25px;
@@ -25,8 +25,8 @@
   }
   
   .filter-btn:hover, .filter-btn.active {
-    background: var(--primary-beige);
-    border-color: var(--primary-beige);
+    background: var(--primary-green);
+    border-color: var(--primary-green);
   }
   
   .projects-grid {
@@ -112,7 +112,7 @@
   }
   
   .project-tag {
-    background: var(--primary-beige);
+    background: var(--primary-green);
     color: var(--text-black);
     font-size: 0.8rem;
     padding: 5px 12px;
@@ -133,7 +133,7 @@
   }
   
   .project-link:hover {
-    background: var(--primary-beige);
+    background: var(--primary-green);
     transform: scale(1.1);
   }
   
@@ -155,7 +155,7 @@
   
   .project-icon {
     font-size: 4rem;
-    color: var(--primary-beige);
+    color: var(--primary-green);
     opacity: 0.7;
     transition: all 0.3s ease;
   }

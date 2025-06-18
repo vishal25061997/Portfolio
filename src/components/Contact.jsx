@@ -100,7 +100,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-details">
                                 <h3>Email</h3>
-                                <p>tusharkaw64@gmail.com</p>
+                                <p>VishalYadav64@gmail.com</p>
                             </div>
                         </div>
 
@@ -127,16 +127,16 @@ const Contact = () => {
                         <div className="contact-social">
                             <h3>Follow Me</h3>
                             <div className="social-links">
-                                <a href="https://www.linkedin.com/in/tusharkaw/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/VishalYadav/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
-                                <a href="https://github.com/TusharKaw" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/VishalYadav" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
-                                <a href="https://www.instagram.com/tusharkaw" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/VishalYadav" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                                <a href="tusharkaw64@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a href="VishalYadav64@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fas fa-envelope"></i>
                                 </a>
                             </div>

@@ -1,9 +1,9 @@
 .stats {
   padding: 30px 0;
-  background-color: #281f0f;
+  background-color: #0a2a0a;
   backdrop-filter: blur(10px);
-  border-top: 1px solid #c2a474;
-  border-bottom: 1px solid #c2a474;
+  border-top: 2px solid var(--primary-green);
+  border-bottom: 2px solid var(--primary-green);
 }
 
 .stats-container {
@@ -24,7 +24,7 @@
 .stat-item h3 {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   margin-bottom: 10px;
 }
 

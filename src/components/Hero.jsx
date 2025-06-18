@@ -50,23 +50,23 @@ const Hero = () => {
     <section id="home" className="hero" ref={heroRef}>
       <div className="hero-container">
         <div className="hero-content" ref={contentRef}>
-          <h3>Hello, I am Tushar Kaw 👋🏻</h3>
-          <h1>Project <span>Manager</span></h1>
+          <h3>Hello, I am Vishal Yadav 👋🏻</h3>
+          <h1>Unity <span>Developer</span></h1>
           <p>
-          Tech-savvy Project Manager with a proven track record of leading cross-functional teams to deliver high-impact web, gaming, and blockchain projects. Skilled in Agile, Scrum, and stakeholder communication, driving efficiency and user engagement.
+          Results-driven Unity Developer with a strong background in building Games and interactive 2D & 3D Applications. Experienced in optimizing performance, implementing gameplay mechanics, and collaborating with artists & designers to deliver polished, high-performance projects. Proficient in C#, shaders, and Unitys scripting API, with a focus on clean code and scalable solutions.
           </p>
           <div className="hero-btns">
             <motion.a 
               //href="#contact"
               href="/Resume.pdf"
-              download="Tushar_Kaw_Resume.pdf"
+              download="Vishal_Yadav_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <text style={{color:"#000000"}}>Download Resume</text>
+              <text style={{color:"#fff"}}>Download Resume</text>
             </motion.a>
             <motion.a 
               href="/blogs" 
@@ -80,7 +80,7 @@ const Hero = () => {
 
           <div className="hero-social">
             <motion.a 
-              href="https://www.linkedin.com/in/tusharkaw/" 
+              href="https://linkedin.com/in/vishal-yadav-050b39188/" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5, scale: 1.1 }}
@@ -89,7 +89,7 @@ const Hero = () => {
               <i className="fab fa-linkedin"></i>
             </motion.a>
             <motion.a 
-              href="https://github.com/TusharKaw" 
+              href="https://github.com/vishal25061997" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5, scale: 1.1 }}
@@ -98,7 +98,7 @@ const Hero = () => {
               <i className="fab fa-github"></i>
             </motion.a>
             <motion.a 
-              href="https://www.instagram.com/tusharkaw" 
+              href="https://www.instagram.com/vishalyadav.babina/" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5, scale: 1.1 }}
@@ -107,7 +107,7 @@ const Hero = () => {
               <i className="fab fa-instagram"></i>
             </motion.a>
             <motion.a 
-              href="mailto:tusharkaw64@gmail.com" 
+              href="mailto:vishalyadav.unique@gmail.com" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ y: -5, scale: 1.1 }}

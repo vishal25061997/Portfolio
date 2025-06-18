@@ -62,7 +62,7 @@ const Blog = () => {
     <section id="blog" className="blog-section">
       <div className="container">
         <AnimatedSection>
-          <h2 className="section-title" style={{color:'var(--primary-beige)'}}>Blogs</h2>
+          <h2 className="section-title" style={{color:'var(--primary-green)'}}>Blogs</h2>
         </AnimatedSection>
 
         <div className="blog-grid">

@@ -5,12 +5,11 @@ import { Link } from 'react-router-dom';
 import AnimatedSection from './AnimatedSection';
 import gsap from 'gsap';
 import bankopolyImage from '../assets/bankopoly.avif';
-import betbyheartImage from '../assets/betbyheart.jpg';
-import nachosNFTImage from '../assets/nachos.jpg';
-import chatroomImage from '../assets/chatroom.png';
-import lunaiImage from '../assets/lunai.png';
-import ActiveShooter from '../assets/Activeshooter.jpg';
-
+import voxelImage from '../assets/voxel.png';
+import tictactoeImage from '../assets/tictactoe.jpg';
+import kitchenImage from '../assets/kitchen.png';
+import bouncingBallImage from '../assets/bouncingball.jpg';
+import fpsShooterImage from '../assets/fpsshooter.jpg';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -18,60 +17,60 @@ const Projects = () => {
 
   const projectFilters = [
     { id: 'all', name: 'All' },
-    { id: 'websites', name: 'Websites' },
     { id: 'games', name: 'Games' },
-    { id: 'blockchain', name: 'Blockchain' }
+    { id: '3d', name: '3D' },
+    { id: 'blockchain', name: 'Blockchain' },
   ];
 
   const projects = [
     {
       id: 1,
-      title: 'Luna AI',
-      description: 'An AI platform where user can create their virtual AI girlfriends / AI influencers, chat with them, create videos with them or advertise their products.',
-      category: ['websites'],
-      image: lunaiImage,
-      url: 'https://github.com/TusharKaw/LUNA-AI'
+      title: 'Bankopoly.io',
+      description: 'A multiplayer dice-based board game with faction battles. Players purchase tiles, pay rent, and engage in strategic zone control. Built with Unity and integrated with Cardano blockchain for NFT skins.',
+      category: ['games', 'blockchain'],
+      image: bankopolyImage,
+      url: 'https://bankopoly.io',
     },
     {
       id: 2,
-      title: 'Bankopoly.io',
-      description: 'A blockchain-based NFT WebGL Game on the Cardano network, featuring secure wallet connection, NFT skins, and multiplayer/vsBot gameplays.',
-      category: ['games','blockchain'],
-      image: bankopolyImage,
-      url: 'https://bankopoly.io/'
-  },
-  {
-    id: 3,
-    title: 'NachosNFT',
-    description: 'A unique web-based platform built on the Cardano blockchain, centered around upgradable NFTs and competitive gameplay mechanics.',
-    category: ['websites','blockchain'],
-    image: nachosNFTImage,
-    url: 'https://www.nachoxyz.com/'
-},
-{
-  id: 4,
-  title: 'Bet By Heart',
-  description: 'An interactive online betting platform featuring games like Blackjack, Teen Patti, Chess, Ludo, and Derby. Integrated referral and rewards systems to boost user engagement.',
-  category: ['websites'],
-  image: betbyheartImage,
-  url: 'http://beta.betbyheart.in'
-},
-{
-  id: 5,
-  title: 'Active Shooter VR',
-  description: 'A VR training simulation developed for Abu Dhabi Police, integrating KAT VR, Forcetube Provolver, and MetaHumans for an immersive training experience.',
-  category: ['games'],
-  image: ActiveShooter,
-  url: 'https://www.artstation.com/artwork/lGXm4V'
-},
+      title: 'Bouncing Ball Physics Game',
+      description: 'A dynamic physics-based game with realistic ball interactions, bounce mechanics, and obstacle courses. Built with Unity’s PhysX engine for accurate collision responses.',
+      category: ['games'],
+      image: bouncingBallImage,
+      url: '#',
+    },
+    {
+      id: 3,
+      title: 'Unbounded Racing',
+      description: 'Blockchain-integrated voxel-style racing game with PvP/vsBot modes. Players log in via Cardano wallets to unlock NFT-based vehicles and tracks.',
+      category: ['games', 'blockchain'],
+      image: voxelImage,
+      url: 'https://voxel-game.abhiwandemos.com/',
+    },
+    {
+      id: 4,
+      title: '3D Kitchen Configurator',
+      description: 'Interactive 3D kitchen designer with real-time model/texture swapping, lighting adjustments, and VR-ready ambience. Enables users to visualize custom layouts with realistic materials and lighting.',
+      category: ['3d'],
+      image: kitchenImage,
+      url: 'https://amazing-lebkuchen-k7.netlify.app/',
+    },
+    {
+      id: 5,
+      title: 'FPS Shooter (Multiplayer)',
+      description: 'First-person shooter with Photon-powered multiplayer, featuring weapon mechanics, kill/death tracking, and customizable maps. Implemented FPS controls using Cinemachine and animation rigging.',
+      category: ['games'],
+      image: fpsShooterImage,
+      url: '#',
+    },
     {
       id: 6,
-      title: 'Personal Chatroom',
-      description: 'A private discord like chatroom made by Me, I deploy this time to time on TOR browser with variable .onion links, to chat privately.',
-      category: ['websites'],
-      image: chatroomImage,
-      url: 'https://github.com/TusharKaw/Personal-Chatroom'
-  }
+      title: 'Multiplayer Tic-Tac-Toe',
+      description: 'Real-time PvP Tic-Tac-Toe using Photon Unity Networking (PUN), featuring synchronized gameplay, raise events for turn management, and cross-platform compatibility.',
+      category: ['games'],
+      image: tictactoeImage,
+      url: '#',
+    }
   ];
 
   const filteredProjects = activeFilter === 'all' 

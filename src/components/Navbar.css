@@ -26,7 +26,7 @@
 }
 
 .navbar-logo span {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 .navbar-menu {
@@ -54,7 +54,7 @@
 }
 
 .navbar-links li a:hover {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 .navbar-toggle {

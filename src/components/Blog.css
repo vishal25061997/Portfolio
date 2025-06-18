@@ -24,7 +24,7 @@
 
 .blog-section .section-header p {
   font-size: 1.1rem;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -92,7 +92,7 @@
 }
 
 .blog-tag {
-  background: var(--primary-beige);
+  background: var(--primary-green);
   color: var(--text-black);
   font-size: 0.8rem;
   padding: 5px 12px;
@@ -114,7 +114,7 @@
 }
 
 .blog-link:hover {
-  background: var(--primary-beige);
+  background: var(--primary-green);
   transform: scale(1.1);
 }
 
@@ -159,7 +159,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--primary-beige);
+  background-color: var(--primary-green);
   transition: width 0.3s ease;
 }
 

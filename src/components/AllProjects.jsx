@@ -4,20 +4,11 @@ import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
 import gsap from 'gsap';
 import bankopolyImage from '../assets/bankopoly.avif';
-import betbyheartImage from '../assets/betbyheart.jpg';
-import royalChessImage from '../assets/royalchess.jpg';
-import nachosNFTImage from '../assets/nachos.jpg';
-import chatroomImage from '../assets/chatroom.png';
-import lunaiImage from '../assets/lunai.png';
 import voxelImage from '../assets/voxel.png';
-import ActiveShooter from '../assets/Activeshooter.jpg';
-import Shivshiksha from '../assets/shivshiksha.jpg';
-import Barrelblast from '../assets/barrelblast.jpg';
-import findmeetchat from '../assets/findmeetchat.jpg';
-import connect from '../assets/connect.webp';
-import aiims from '../assets/aiims.jpeg';
-import metaschool from '../assets/metaschool.png';
-import videosurf from '../assets/videosurf.png';
+import tictactoeImage from '../assets/tictactoe.jpg';
+import kitchenImage from '../assets/kitchen.png';
+import bouncingBallImage from '../assets/bouncingball.jpg';
+import fpsShooterImage from '../assets/fpsshooter.jpg';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -34,124 +25,52 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Luna AI',
-      description: 'An AI platform where user can create their virtual AI girlfriends / AI influencers, chat with them, create videos with them or advertise their products.',
-      category: ['websites','apps'],
-      image: lunaiImage,
-      url: 'https://github.com/TusharKaw/LUNA-AI'
+      title: 'Bankopoly.io',
+      description: 'A multiplayer dice-based board game with faction battles. Players purchase tiles, pay rent, and engage in strategic zone control. Built with Unity and integrated with Cardano blockchain for NFT skins.',
+      category: ['games', 'blockchain'],
+      image: bankopolyImage,
+      url: 'https://bankopoly.io',
     },
     {
       id: 2,
-      title: 'Bankopoly.io',
-      description: 'A blockchain-based NFT WebGL Game on the Cardano network, featuring secure wallet connection, NFT skins, and multiplayer/vsBot gameplays.',
-      category: ['games','blockchain'],
-      image: bankopolyImage,
-      url: 'https://bankopoly.io/'
-  },
-  {
-    id: 3,
-    title: 'Active Shooter VR',
-    description: 'A VR training simulation developed for Abu Dhabi Police, integrating KAT VR, Forcetube Provolver, and MetaHumans for an immersive training experience.',
-    category: ['games'],
-    image: ActiveShooter,
-    url: 'https://www.artstation.com/artwork/lGXm4V'
-  },
-  {
-    id: 4,
-    title: 'NachosNFT',
-    description: 'A unique web-based platform built on the Cardano blockchain, centered around upgradable NFTs and competitive gameplay mechanics.',
-    category: ['websites','blockchain'],
-    image: nachosNFTImage,
-    url: 'https://www.nachoxyz.com/'
-},
-{
-  id: 5,
-  title: 'Bet By Heart',
-  description: 'An interactive online betting platform featuring games like Blackjack, Teen Patti, Chess, Ludo, and Derby. Integrated referral and rewards systems to boost user engagement.',
-  category: ['websites'],
-  image: betbyheartImage,
-  url: 'http://beta.betbyheart.in'
-},
-{
-  id: 6,
-  title: 'Video Surfer',
-  description: 'A video surfing website, where most popular videos are dropped via Admin panel, using a Bulk videos importer mechanics, allowing the website to attain 100s of videos at once.',
-  category: ['websites'],
-  image: videosurf,
-  url: 'https://github.com/Mohityadav94161/video_surfing'
-},
-    {
-      id: 7,
-      title: 'Royal Chess',
-      description: 'A live interactive online chess game with power-ups, transforming traditional chess into a gamified experience with over 500+ active users within the first month.',
-      category: ['websites','games','blockchain'],
-      image: royalChessImage,
-      url: 'https://beta.royalchessclub.io/'
+      title: 'Bouncing Ball Physics Game',
+      description: 'A dynamic physics-based game with realistic ball interactions, bounce mechanics, and obstacle courses. Built with Unity’s PhysX engine for accurate collision responses.',
+      category: ['games'],
+      image: bouncingBallImage,
+      url: '#',
     },
     {
-      id: 8,
-      title: 'Barrel Blast',
-      description: 'Barrel Blast, a fast-paced, web-based arcade game built using Phaser.js, designed to offer quick and addictive gameplay.',
-      category: ['websites','games'],
-      image: Barrelblast,
-      url: 'https://barrel-test.vercel.app/'
+      id: 3,
+      title: 'Unbounded Racing',
+      description: 'Blockchain-integrated voxel-style racing game with PvP/vsBot modes. Players log in via Cardano wallets to unlock NFT-based vehicles and tracks.',
+      category: ['games', 'blockchain'],
+      image: voxelImage,
+      url: 'https://voxel-game.abhiwandemos.com/',
     },
-  {
-    id: 9,
-    title: 'Unbounded Racing',
-    description: 'A voxel art styled racing game, with PvP and vsBots mechanics, game login based on Cardano blockchain wallets.',
-    category: ['games','blockchain'],
-    image: voxelImage,
-    url: 'https://voxel-game.abhiwandemos.com/'
-},
-{
-  id: 10,
-  title: 'Shiv Shiksha',
-  description: 'A website for a charitable organization focused on supporting underprivileged children through education, healthcare, and community programs.',
-  category: ['websites'],
-  image: Shivshiksha,
-  url: 'https://www.artstation.com/artwork/AZ58EX'
-},
-{
-  id: 11,
-  title: 'Find Meet Chat',
-  description: 'A Smash or Pass based cool web-app, where users either Smash or Pass you based on your Images / Portfolio, smashed ones can chat as well.',
-  category: ['websites','apps'],
-  image: findmeetchat,
-  url: 'https://github.com/TusharKaw/Find-Meet-Chat_v2'
-},
-{
-  id: 12,
-  title: 'Connect',
-  description: 'A web-app for Artists, Singers, Musicians, Actors, Models, etc, where they can create their profiles and connect with Industries to get opportunities.',
-  category: ['websites','apps'],
-  image: connect,
-  url: 'https://github.com/TusharKaw/Connect'
-},
-{
-  id: 13,
-  title: 'ADHD Diagnostic Game - AIIMS',
-  description: 'A 2D game created for AIIMS Delhi featuring 10 activities designed by doctors for children with ADHD. The game tracks response time, patterns, and behavior.',
-  category: ['games','apps'],
-  image: aiims,
-  url: 'https://googleplay.com/store/apps'
-},
-{
-  id: 14,
-  title: 'Meta School VR',
-  description: 'A VR based Chemistry lab where users can perform Chemistry activities inside a virtual 3D lab, and see their results before performing in real world.',
-  category: ['apps'],
-  image: metaschool,
-  url: 'https://googleplay.com/store/apps'
-},
-{
-  id: 15,
-  title: 'Personal Chatroom',
-  description: 'A private discord like chatroom made by Me, I deploy this time to time on TOR browser with variable .onion links, to chat privately.',
-  category: ['websites'],
-  image: chatroomImage,
-  url: 'https://github.com/TusharKaw/Personal-Chatroom'
-}
+    {
+      id: 4,
+      title: '3D Kitchen Configurator',
+      description: 'Interactive 3D kitchen designer with real-time model/texture swapping, lighting adjustments, and VR-ready ambience. Enables users to visualize custom layouts with realistic materials and lighting.',
+      category: ['3d'],
+      image: kitchenImage,
+      url: 'https://amazing-lebkuchen-k7.netlify.app/',
+    },
+    {
+      id: 5,
+      title: 'FPS Shooter (Multiplayer)',
+      description: 'First-person shooter with Photon-powered multiplayer, featuring weapon mechanics, kill/death tracking, and customizable maps. Implemented FPS controls using Cinemachine and animation rigging.',
+      category: ['games'],
+      image: fpsShooterImage,
+      url: '#',
+    },
+    {
+      id: 6,
+      title: 'Multiplayer Tic-Tac-Toe',
+      description: 'Real-time PvP Tic-Tac-Toe using Photon Unity Networking (PUN), featuring synchronized gameplay, raise events for turn management, and cross-platform compatibility.',
+      category: ['games'],
+      image: tictactoeImage,
+      url: '#',
+    }
   ];
 
   const filteredProjects = activeFilter === 'all' 

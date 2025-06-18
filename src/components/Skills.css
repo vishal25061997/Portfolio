@@ -46,8 +46,8 @@
 .skill-percentage {
   position: relative;
   font-weight: 700;
-  color: var(--primary-beige);
-  text-shadow: 0 0 5px #c2a474;
+  color: var(--primary-green);
+  text-shadow: 0 0 5px var(--primary-green);
 }
 
 .skill-bar {
@@ -57,13 +57,13 @@
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  box-shadow: inset 0 0 5px #291F10;
-  border: 1px solid #291F10;
+  box-shadow: inset 0 0 5px #103e0b;
+  border: 1px solid #103e0b;
 }
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(to right, var(--primary-beige), var(--light-beige));
+  background: linear-gradient(to right, var(--primary-green), var(--light-green));
   border-radius: 10px;
   position: relative;
   z-index: 1;
@@ -75,7 +75,7 @@
   left: 0;
   height: 100%;
   filter: blur(5px);
-  background: linear-gradient(to right, var(--primary-beige), var(--light-beige));
+  background: linear-gradient(to right, var(--primary-green), var(--light-green));
   border-radius: 10px;
   z-index: 0;
   opacity: 0.6;
@@ -100,7 +100,7 @@
 
 .skill-icon i {
   font-size: 3rem;
-  color: var(--primary-beige);
+  color: var(--primary-green);
   transition: all 0.3s ease;
 }
 
@@ -110,7 +110,7 @@
   bottom: -10px;
   width: 0;
   height: 2px;
-  background: var(--primary-beige);
+  background: var(--primary-green);
   transition: width 0.3s ease;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .skill-icon:hover span {
-  color: var(--primary-beige);
+  color: var(--primary-green);
 }
 
 @keyframes progressAnimation {
@@ -151,15 +151,15 @@
   width: 3rem;
   height: 3rem;
   font-size: 1.5rem;
-  color: var(--primary-beige);
-  background-color: #c2a474;
+  color: var(--primary-green);
+  background-color: var(--primary-green);
   border-radius: 50%;
-  border: 2px solid var(--primary-beige);
+  border: 2px solid var(--primary-green);
   transition: all 0.3s ease;
 }
 
 .skill-icon:hover .custom-icon {
-  background-color: var(--primary-beige);
+  background-color: var(--primary-green);
   color: white;
   transform: scale(1.1);
 }
