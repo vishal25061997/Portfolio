@@ -129,7 +129,7 @@
 
 .blog-post-content pre {
   background: var(--background-darker);
-  border: 1px solid rgba(138, 43, 226, 0.2);
+  border: 1px solid #021100;
   border-radius: 10px;
   padding: 20px;
   margin: 25px 0;

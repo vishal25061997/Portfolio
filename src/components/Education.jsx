@@ -5,26 +5,32 @@ const Education = () => {
   const educations = [
     {
       id: 1,
-      degree: 'B.Tech in Electronics & Communication Engineering',
-      institution: 'Deenbandhu Chhotu Ram University of Science and Technology',
-      location: 'Haryana, India',
-      period: <text style={{color:'#000'}}>2019 - 2023</text>
+      degree: 'PGDCA',
+      institution: 'National Board Of Computer Education',
+      period: <text style={{color:'#fff'}}>2023 - 2024</text>
     },
     {
       id: 2,
-      degree: '12th CBSE (Science - Non Medical)',
-      institution: 'Oxford Senior Secondary School',
-      location: 'Delhi, India',
-      period: <text style={{color:'#000'}}>2017 - 2019</text>
+      degree: 'B-tech',
+      institution: 'Skyline Institute Of Engg. & Technology ,AKTU',
+      location: 'Lucknow, UP',
+      period: <text style={{color:'#fff'}}>2015 - 2019</text>
+    },
+    {
+      id: 3,
+      degree: 'Intermediate',
+      institution: 'Kendriya vidyalaya sangathan',
+      location: 'Jhansi, UP',
+      period: <text style={{color:'#fff'}}>2014</text>
     }
   ];
 
   const courses = [
     {
       id: 1,
-      title: 'Internet & Web Development',
-      institution: 'Udemy',
-      period: <text style={{color:'#000'}}>2022</text>
+      title: 'Full Stack Web developer',
+      institution: 'Sharpener tech',
+      period: <text style={{color:'#fff'}}>2022 - 2023</text>
     }
   ];
 

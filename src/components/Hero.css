@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to bottom, rgba(7, 1, 23, 0.8), var(--background-dark));
+  background: #000;
   padding: 80px 0;
 }
 
@@ -168,7 +168,7 @@
   right: -10px;
   bottom: -10px;
   background-image: url('./../assets/vishal.jpeg');
-  background-size: cover; /* ensure image fills the area */
+  background-size: cover;
   background-position: center;
 
   /* background: linear-gradient(45deg, var(--primary-green), transparent, var(--primary-green)); */

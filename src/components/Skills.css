@@ -1,6 +1,6 @@
 .skills {
   padding: var(--section-padding);
-  background: linear-gradient(to bottom, var(--background-dark), rgba(7, 1, 23, 0.9));
+  background: #000;
   text-align: center;
 }
 

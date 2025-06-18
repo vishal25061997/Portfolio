@@ -1,5 +1,5 @@
 .footer {
-  background: #000;
+  background: #021100;
   padding-top: 40px;
   border-top: 1px solid var(--primary-green);
 }
@@ -97,7 +97,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--primary-green), 0.1);
+  background: var(--primary-green);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,7 +113,7 @@
 .footer-bottom {
   padding: 25px 0;
   text-align: center;
-  border-top: 1px solid var(--primary-green), 0.1);
+  border-top: 1px solid var(--primary-green);
 }
 
 .footer-bottom p {

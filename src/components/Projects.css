@@ -184,7 +184,7 @@
   font-weight: 600;
   border: none;
   border-radius: 5px;
-  background: linear-gradient(135deg, var(--primary-green), #d4a574);
+  background: linear-gradient(135deg, var(--primary-green));
   color: var(--text-black);
   cursor: pointer;
   transition: all 0.3s ease;

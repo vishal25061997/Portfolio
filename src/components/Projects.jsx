@@ -193,21 +193,6 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
-        
-        <AnimatedSection delay={0.1}>
-          <div className="see-more-container">
-            <Link to="/allprojects" className="see-more-btn">
-              <motion.button
-                className="btn btn-primary"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <text style={{color:'#000'}}>See More Projects</text>
-                <i style={{color:'#000'}} className="fas fa-arrow-right"></i>
-              </motion.button>
-            </Link>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );

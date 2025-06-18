@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-  background-color: rgba(14, 3, 34, 0.6);
+  background-color: #021100;
   backdrop-filter: blur(10px);
   border: 1px solid var(--primary-green);
   border-radius: 10px;

@@ -1,6 +1,6 @@
 .experience {
   padding: var(--section-padding);
-  background: linear-gradient(to bottom, rgba(7, 1, 23, 0.9), var(--background-dark));
+  background: #000;
   text-align: center;
 }
 

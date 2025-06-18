@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-green);
+  color: var(--light-green);
   font-size: 1.2rem;
 }
 
@@ -66,7 +66,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #3B2E14;
+  background: #103e0b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +108,7 @@
 .form-group textarea:focus {
   outline: none;
   border-color: var(--primary-green);
-  background: #3e2f18;
+  background: #15530f;
 }
 
 .form-group textarea {

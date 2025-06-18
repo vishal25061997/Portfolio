@@ -100,7 +100,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-details">
                                 <h3>Email</h3>
-                                <p>VishalYadav64@gmail.com</p>
+                                <p>vishalyadav.unique@gmail.com</p>
                             </div>
                         </div>
 
@@ -110,7 +110,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-details">
                                 <h3>Phone</h3>
-                                <p>+91 8383826599</p>
+                                <p>+91 8601849047</p>
                             </div>
                         </div>
 
@@ -120,23 +120,23 @@ const Contact = () => {
                             </div>
                             <div className="contact-details">
                                 <h3>Location</h3>
-                                <p>Delhi, India</p>
+                                <p>Noida, India</p>
                             </div>
                         </div>
 
                         <div className="contact-social">
                             <h3>Follow Me</h3>
                             <div className="social-links">
-                                <a href="https://www.linkedin.com/in/VishalYadav/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://linkedin.com/in/vishal-yadav-050b39188/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
-                                <a href="https://github.com/VishalYadav" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/vishal25061997" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
-                                <a href="https://www.instagram.com/VishalYadav" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/vishalyadav.babina/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                                <a href="VishalYadav64@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a href="mailto:vishalyadav.unique@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fas fa-envelope"></i>
                                 </a>
                             </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                                 ></textarea>
                             </div>
                             <button type="submit" className="btn" disabled={loading}>
-                                <text style={{color:'#000'}}>{loading ? 'Sending...' : 'Send Message'}</text>
+                                <text style={{color:'#fff'}}>{loading ? 'Sending...' : 'Send Message'}</text>
                             </button>
                         </form>
                     </div>
